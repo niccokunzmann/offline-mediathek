@@ -42,4 +42,6 @@ for path, dirnames, fnames in os.walk(CONTENT):
 print()
 
 with open(INDEX, "w") as file:
+    file.write("const INDEX = ")
     json.dump(index, file, indent="  ")
+    file.write(";")
