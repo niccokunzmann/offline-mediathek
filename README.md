@@ -9,3 +9,10 @@ Install python3 and pip.
 ```
 pip install youtube_dl
 ```
+
+Then, download some files in the content folder.
+
+```
+python3 generate-index.py
+```
+Generates the JavaScript index file.
